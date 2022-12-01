@@ -1,5 +1,4 @@
 import React from 'react';
-import india from "../../img/india.png"
 const TestiMonialsDetails = ({testiMonialDetail}) => {
     const {name, address, description, img} = testiMonialDetail;
     console.log("testiMonialDetail"+testiMonialDetail)

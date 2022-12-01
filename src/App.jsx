@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
-import ProductList from "./components/productList/ProductList";
+// import ProductList from "./components/productList/ProductList";
 import Help from "./components/Help";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
@@ -14,7 +14,7 @@ import {
   Route
 
 } from "react-router-dom"
-import Portfolio from "./components/Portfolio";
+// import Portfolio from "./components/Portfolio";
 const App = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -36,7 +36,7 @@ const App = () => {
            
             <Route  exact path="/help"><Help/></Route>
            
-            <Route  exact path="/portfolio"><Portfolio /></Route> 
+            {/* <Route  exact path="/portfolio"><Portfolio /></Route>  */}
           </Switch>
           
           <Footer />

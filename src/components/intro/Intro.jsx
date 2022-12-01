@@ -4,7 +4,7 @@ import m2 from '../../img/3.png';
 import m3 from '../../img/4.jpg';
 import ProductList from '../productList/ProductList';
 import Testimonials from "../TestiMonials/TestiMonials"
-import TestiMonialsDetails from '../TestiMonialsDetails/TestiMonialsDetails';
+//import TestiMonialsDetails from '../TestiMonialsDetails/TestiMonialsDetails';
 const Intro = () => {
   return (
     <div>

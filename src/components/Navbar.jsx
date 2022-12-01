@@ -15,9 +15,9 @@ const Navbar = () => {
         <li className="nav-item fw-bold" style={{fontSize:"20px"}}>
           <a className="nav-link active " aria-current="page" href="about">About</a>
         </li>
-        <li className="nav-item fw-bold" style={{fontSize:"20px"}}>
+        {/* <li className="nav-item fw-bold" style={{fontSize:"20px"}}>
           <a className="nav-link active " aria-current="page" href="portfolio">portfolio</a>
-        </li>
+        </li> */}
         
        
       </ul>
